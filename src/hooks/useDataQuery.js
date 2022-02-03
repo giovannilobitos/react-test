@@ -28,10 +28,6 @@ const useDataQuery = () => {
             }
 
             try {
-                // await new Promise((resolve) => {
-                //     setTimeout(resolve, 1000);
-                // });
-
                 const { data } = await axios.get('https://w4m9n4r9.stackpathcdn.com/frontend-test-data.json');
                 newQueryInfo.data = data;
             } catch(error) {
