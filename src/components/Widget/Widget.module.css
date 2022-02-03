@@ -1,0 +1,51 @@
+.widget {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.widgetTable {
+    min-width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.hidden {
+    display: none;
+}
+
+.tableCell {
+    box-sizing: border-box;
+    padding: 0.25rem 1rem;
+}
+
+.valueCell {
+    min-width: 50px;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+.plotCell, .plotLabelCell {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.plotCellContainer {
+    width: 100%;
+    min-width: 100px;
+    height: 20px;
+}
+
+.browserCell {
+    text-align: left;
+    max-width: 100px;
+}
+
+.browserCellContent {
+    min-width: 100px;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

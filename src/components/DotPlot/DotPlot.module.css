@@ -1,0 +1,18 @@
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+.subContainer {
+    width: calc(100% - 0.5rem);
+}
+
+.circle {
+    background: #84a7ea;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 9999px;
+}

@@ -1,0 +1,7 @@
+.mainContainer {
+    width: 100%;
+    color: #6d6a68;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
